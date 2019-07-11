@@ -10,6 +10,7 @@ namespace IdentityConsoleApp
     {
         static void Main(string[] args)
         {
+
             //discovery endpoint 
             var client = new HttpClient();
             var disco = client.GetDiscoveryDocumentAsync("http://localhost:5000").Result;
