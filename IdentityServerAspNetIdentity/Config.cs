@@ -41,11 +41,11 @@ namespace IdentityServerAspNetIdentity
                 {
                     ClientId = "client",
                     ClientName = "Client Credentials Client",
-
+                    AllowOfflineAccess = true,  //是否可以离线访问，refresh
                     AllowedGrantTypes = GrantTypes.ClientCredentials,   //不代表任何用户
                     ClientSecrets = { new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256()) },
-
-                    AllowedScopes = { "api1" }
+                    
+                    AllowedScopes = { "api1", IdentityServerConstants.StandardScopes.OfflineAccess }
                 },
                 //pwd client
                 new Client
@@ -56,7 +56,8 @@ namespace IdentityServerAspNetIdentity
                     {
                         new Secret("wpf secret".Sha256())
                     },
-                    AllowedScopes={ "api1", "openid", "profile"  }
+                    AllowOfflineAccess = true,  //是否可以离线访问，refresh
+                    AllowedScopes={ "api1", "openid", "profile", IdentityServerConstants.StandardScopes.OfflineAccess }//
                 },
                 // MVC client using hybrid flow
                 new Client

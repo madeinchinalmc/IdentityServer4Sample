@@ -2,6 +2,8 @@
 using System.Net.Http;
 using IdentityModel;
 using IdentityModel.Client;
+using Microsoft.AspNetCore.Http;
+using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using Newtonsoft.Json.Linq;
 
 namespace IdentityConsoleApp
@@ -10,7 +12,6 @@ namespace IdentityConsoleApp
     {
         static void Main(string[] args)
         {
-
             //discovery endpoint 
             var client = new HttpClient();
             var disco = client.GetDiscoveryDocumentAsync("http://localhost:5000").Result;
@@ -33,18 +34,19 @@ namespace IdentityConsoleApp
             }
             var token = tokenResponse.AccessToken;
             Console.WriteLine(token);
+
             //call identity resource api
-            client.SetBearerToken(token);
-            var userInfoResponse = client.GetAsync("http://localhost:5001/identity").Result;
-            if (!userInfoResponse.IsSuccessStatusCode)
-            {
-                Console.WriteLine(userInfoResponse.StatusCode);
-            }
-            else
-            {
-                var content = userInfoResponse.Content.ReadAsStringAsync().Result;
-                Console.WriteLine(JArray.Parse(content));
-            }
+            //client.SetBearerToken(token);
+            //var userInfoResponse = client.GetAsync("http://localhost:5001/identity").Result;
+            //if (!userInfoResponse.IsSuccessStatusCode)
+            //{
+            //    Console.WriteLine(userInfoResponse.StatusCode);
+            //}
+            //else
+            //{
+            //    var content = userInfoResponse.Content.ReadAsStringAsync().Result;
+            //    Console.WriteLine(JArray.Parse(content));
+            //}
             //pwd client
             var pwdClient = new HttpClient();
             var pwdTokenResponse = pwdClient.RequestPasswordTokenAsync(new PasswordTokenRequest()
@@ -52,12 +54,29 @@ namespace IdentityConsoleApp
                 Address = disco.TokenEndpoint,
                 ClientId = "wpf client",
                 ClientSecret = "wpf secret",
-                Scope = "api1 openid profile",
+                Scope = "api1 openid profile offline_access",
                 UserName="bob",
                 Password= "Pass123$"
             }).Result;
             var pwdtoken = pwdTokenResponse.AccessToken;
             Console.WriteLine(pwdtoken);
+
+
+            //get refresh_token
+            var refresh = pwdTokenResponse.RefreshToken;
+            var refreshToken = pwdClient.RequestRefreshTokenAsync(new RefreshTokenRequest()
+            {
+                Address = disco.TokenEndpoint,
+                ClientId = "wpf client",
+                ClientSecret = "wpf secret",
+                Scope = "api1 openid profile",
+                GrantType = OpenIdConnectGrantTypes.RefreshToken,
+                RefreshToken = refresh
+            }).Result;
+
+            Console.WriteLine(refreshToken);
+
+
             //call identity resource api
             pwdClient.SetBearerToken(pwdtoken);
             var userInfoPwdResponse = pwdClient.GetAsync(disco.UserInfoEndpoint).Result;

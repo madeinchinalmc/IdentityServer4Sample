@@ -3442,3 +3442,1095 @@ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.
 2019-07-11 23:34:30.275 +08:00 [DBG] Consent Return Url Parameter: returnUrl
 2019-07-11 23:34:30.305 +08:00 [DBG] Error Url: /home/error
 2019-07-11 23:34:30.333 +08:00 [DBG] Error Id Parameter: errorId
+2019-07-13 17:08:19.424 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-07-13 17:08:19.499 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-07-13 17:08:19.499 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-07-13 17:08:19.500 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-07-13 17:08:19.500 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-07-13 17:08:19.500 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-07-13 17:08:19.833 +08:00 [DBG] Starting grant removal
+2019-07-13 17:08:22.357 +08:00 [DBG] Login Url: /Account/Login
+2019-07-13 17:08:22.367 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-07-13 17:08:22.373 +08:00 [DBG] Logout Url: /Account/Logout
+2019-07-13 17:08:22.379 +08:00 [DBG] ConsentUrl Url: /consent
+2019-07-13 17:08:22.385 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-07-13 17:08:22.435 +08:00 [DBG] Error Url: /home/error
+2019-07-13 17:08:22.475 +08:00 [DBG] Error Id Parameter: errorId
+2019-07-13 17:11:40.009 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-07-13 17:11:40.066 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-07-13 17:11:40.067 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-07-13 17:11:40.067 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-07-13 17:11:40.068 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-07-13 17:11:40.068 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-07-13 17:11:40.325 +08:00 [DBG] Starting grant removal
+2019-07-13 17:11:42.261 +08:00 [DBG] Login Url: /Account/Login
+2019-07-13 17:11:42.272 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-07-13 17:11:42.282 +08:00 [DBG] Logout Url: /Account/Logout
+2019-07-13 17:11:42.294 +08:00 [DBG] ConsentUrl Url: /consent
+2019-07-13 17:11:42.310 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-07-13 17:11:42.323 +08:00 [DBG] Error Url: /home/error
+2019-07-13 17:11:42.325 +08:00 [DBG] Error Id Parameter: errorId
+2019-07-13 17:12:02.551 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-07-13 17:12:02.583 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-07-13 17:12:02.590 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-07-13 17:12:02.606 +08:00 [DBG] Start discovery request
+2019-07-13 17:12:03.717 +08:00 [DBG] Found ["openid","profile","email","address","phone","roles","locations","api1"] as all scopes in database
+2019-07-13 17:12:03.903 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-07-13 17:12:03.906 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-07-13 17:12:03.907 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-07-13 17:12:03.913 +08:00 [DBG] Start key discovery request
+2019-07-13 17:12:05.736 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 17:12:05.746 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 17:12:05.753 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 17:12:05.773 +08:00 [DBG] Start token request.
+2019-07-13 17:12:05.785 +08:00 [DBG] Start client validation
+2019-07-13 17:12:05.809 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 17:12:05.819 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 17:12:05.858 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 17:12:05.858 +08:00 [DBG] Secret id found: client
+2019-07-13 17:12:06.504 +08:00 [DBG] client found in database: true
+2019-07-13 17:12:06.523 +08:00 [DBG] client configuration validation for client client succeeded.
+2019-07-13 17:12:06.557 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 17:12:06.560 +08:00 [DBG] Client validation success
+2019-07-13 17:12:06.638 +08:00 [INF] {"ClientId":"client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7E8ESKJ2T:00000003","TimeStamp":"2019-07-13T09:12:06.0000000Z","ProcessId":19164,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 17:12:06.708 +08:00 [DBG] Start token request validation
+2019-07-13 17:12:06.732 +08:00 [DBG] Start client credentials token request validation
+2019-07-13 17:12:06.830 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 17:12:06.933 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:12:06.952 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 17:12:06.963 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:12:06.971 +08:00 [DBG] client credentials token request validation success
+2019-07-13 17:12:06.989 +08:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"api1","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 17:12:07.057 +08:00 [DBG] Getting claims for access token for client: client
+2019-07-13 17:12:07.220 +08:00 [INF] {"ClientId":"client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"api1","GrantType":"client_credentials","Tokens":[{"TokenType":"access_token","TokenValue":"****Nm0w","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7E8ESKJ2T:00000003","TimeStamp":"2019-07-13T09:12:07.0000000Z","ProcessId":19164,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 17:12:07.239 +08:00 [DBG] Token request success.
+2019-07-13 17:14:45.047 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-07-13 17:14:45.084 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-07-13 17:14:45.085 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-07-13 17:14:45.085 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-07-13 17:14:45.085 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-07-13 17:14:45.086 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-07-13 17:14:45.331 +08:00 [DBG] Starting grant removal
+2019-07-13 17:14:47.216 +08:00 [DBG] Login Url: /Account/Login
+2019-07-13 17:14:47.233 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-07-13 17:14:47.243 +08:00 [DBG] Logout Url: /Account/Logout
+2019-07-13 17:14:47.248 +08:00 [DBG] ConsentUrl Url: /consent
+2019-07-13 17:14:47.268 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-07-13 17:14:47.300 +08:00 [DBG] Error Url: /home/error
+2019-07-13 17:14:47.317 +08:00 [DBG] Error Id Parameter: errorId
+2019-07-13 17:15:24.634 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-07-13 17:15:24.652 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-07-13 17:15:24.677 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-07-13 17:15:24.684 +08:00 [DBG] Start discovery request
+2019-07-13 17:15:25.697 +08:00 [DBG] Found ["openid","profile","email","address","phone","roles","locations","api1"] as all scopes in database
+2019-07-13 17:15:25.954 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-07-13 17:15:25.957 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-07-13 17:15:25.963 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-07-13 17:15:25.968 +08:00 [DBG] Start key discovery request
+2019-07-13 17:15:26.450 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 17:15:26.465 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 17:15:26.466 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 17:15:26.516 +08:00 [DBG] Start token request.
+2019-07-13 17:15:26.532 +08:00 [DBG] Start client validation
+2019-07-13 17:15:26.549 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 17:15:26.557 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 17:15:26.581 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 17:15:26.581 +08:00 [DBG] Secret id found: client
+2019-07-13 17:15:27.055 +08:00 [DBG] client found in database: true
+2019-07-13 17:15:27.066 +08:00 [DBG] client configuration validation for client client succeeded.
+2019-07-13 17:15:27.083 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 17:15:27.084 +08:00 [DBG] Client validation success
+2019-07-13 17:15:27.121 +08:00 [INF] {"ClientId":"client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7EA62QRF5:00000003","TimeStamp":"2019-07-13T09:15:27.0000000Z","ProcessId":15380,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 17:15:27.145 +08:00 [DBG] Start token request validation
+2019-07-13 17:15:27.168 +08:00 [DBG] Start client credentials token request validation
+2019-07-13 17:15:27.231 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 17:15:27.342 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:15:27.368 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 17:15:27.375 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:15:27.385 +08:00 [DBG] client credentials token request validation success
+2019-07-13 17:15:27.414 +08:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"api1","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 17:15:27.499 +08:00 [DBG] Getting claims for access token for client: client
+2019-07-13 17:15:27.663 +08:00 [INF] {"ClientId":"client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"api1","GrantType":"client_credentials","Tokens":[{"TokenType":"access_token","TokenValue":"****HQ8w","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7EA62QRF5:00000003","TimeStamp":"2019-07-13T09:15:27.0000000Z","ProcessId":15380,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 17:15:27.683 +08:00 [DBG] Token request success.
+2019-07-13 17:25:09.669 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-07-13 17:25:09.733 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-07-13 17:25:09.736 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-07-13 17:25:09.738 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-07-13 17:25:09.739 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-07-13 17:25:09.740 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-07-13 17:25:10.090 +08:00 [DBG] Starting grant removal
+2019-07-13 17:25:11.652 +08:00 [DBG] Login Url: /Account/Login
+2019-07-13 17:25:11.656 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-07-13 17:25:11.661 +08:00 [DBG] Logout Url: /Account/Logout
+2019-07-13 17:25:11.669 +08:00 [DBG] ConsentUrl Url: /consent
+2019-07-13 17:25:11.672 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-07-13 17:25:11.676 +08:00 [DBG] Error Url: /home/error
+2019-07-13 17:25:11.682 +08:00 [DBG] Error Id Parameter: errorId
+2019-07-13 17:25:34.575 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-07-13 17:25:34.587 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-07-13 17:25:34.589 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-07-13 17:25:34.614 +08:00 [DBG] Start discovery request
+2019-07-13 17:25:35.599 +08:00 [DBG] Found ["openid","profile","email","address","phone","roles","locations","api1"] as all scopes in database
+2019-07-13 17:25:35.874 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-07-13 17:25:35.886 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-07-13 17:25:35.905 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-07-13 17:25:35.953 +08:00 [DBG] Start key discovery request
+2019-07-13 17:25:36.527 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 17:25:36.553 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 17:25:36.555 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 17:25:36.571 +08:00 [DBG] Start token request.
+2019-07-13 17:25:36.583 +08:00 [DBG] Start client validation
+2019-07-13 17:25:36.592 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 17:25:36.602 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 17:25:36.648 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 17:25:36.648 +08:00 [DBG] Secret id found: client
+2019-07-13 17:25:37.190 +08:00 [DBG] client found in database: true
+2019-07-13 17:25:37.203 +08:00 [DBG] client configuration validation for client client succeeded.
+2019-07-13 17:25:37.229 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 17:25:37.233 +08:00 [DBG] Client validation success
+2019-07-13 17:25:37.278 +08:00 [INF] {"ClientId":"client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7EG07LFLU:00000003","TimeStamp":"2019-07-13T09:25:37.0000000Z","ProcessId":1180,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 17:25:37.302 +08:00 [DBG] Start token request validation
+2019-07-13 17:25:37.312 +08:00 [DBG] Start client credentials token request validation
+2019-07-13 17:25:37.362 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 17:25:37.459 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:25:37.480 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 17:25:37.503 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:25:37.513 +08:00 [DBG] client credentials token request validation success
+2019-07-13 17:25:37.532 +08:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"api1","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 17:25:37.594 +08:00 [DBG] Getting claims for access token for client: client
+2019-07-13 17:25:37.776 +08:00 [INF] {"ClientId":"client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"api1","GrantType":"client_credentials","Tokens":[{"TokenType":"access_token","TokenValue":"****MvlA","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7EG07LFLU:00000003","TimeStamp":"2019-07-13T09:25:37.0000000Z","ProcessId":1180,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 17:25:37.808 +08:00 [DBG] Token request success.
+2019-07-13 17:27:14.201 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-07-13 17:27:14.254 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-07-13 17:27:14.254 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-07-13 17:27:14.255 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-07-13 17:27:14.256 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-07-13 17:27:14.256 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-07-13 17:27:14.503 +08:00 [DBG] Starting grant removal
+2019-07-13 17:27:16.501 +08:00 [DBG] Login Url: /Account/Login
+2019-07-13 17:27:16.507 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-07-13 17:27:16.511 +08:00 [DBG] Logout Url: /Account/Logout
+2019-07-13 17:27:16.525 +08:00 [DBG] ConsentUrl Url: /consent
+2019-07-13 17:27:16.536 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-07-13 17:27:16.550 +08:00 [DBG] Error Url: /home/error
+2019-07-13 17:27:16.571 +08:00 [DBG] Error Id Parameter: errorId
+2019-07-13 17:27:40.624 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-07-13 17:27:40.668 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-07-13 17:27:40.704 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-07-13 17:27:40.733 +08:00 [DBG] Start discovery request
+2019-07-13 17:27:41.768 +08:00 [DBG] Found ["openid","profile","email","address","phone","roles","locations","api1"] as all scopes in database
+2019-07-13 17:27:42.053 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-07-13 17:27:42.056 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-07-13 17:27:42.057 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-07-13 17:27:42.063 +08:00 [DBG] Start key discovery request
+2019-07-13 17:27:42.546 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 17:27:42.563 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 17:27:42.568 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 17:27:42.595 +08:00 [DBG] Start token request.
+2019-07-13 17:27:42.607 +08:00 [DBG] Start client validation
+2019-07-13 17:27:42.617 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 17:27:42.624 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 17:27:42.658 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 17:27:42.659 +08:00 [DBG] Secret id found: client
+2019-07-13 17:27:43.058 +08:00 [DBG] client found in database: true
+2019-07-13 17:27:43.071 +08:00 [DBG] client configuration validation for client client succeeded.
+2019-07-13 17:27:43.105 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 17:27:43.105 +08:00 [DBG] Client validation success
+2019-07-13 17:27:43.158 +08:00 [INF] {"ClientId":"client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7EH5CQ58B:00000003","TimeStamp":"2019-07-13T09:27:43.0000000Z","ProcessId":22472,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 17:27:43.178 +08:00 [DBG] Start token request validation
+2019-07-13 17:27:43.196 +08:00 [DBG] Start client credentials token request validation
+2019-07-13 17:27:43.263 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 17:27:43.344 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:27:43.370 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 17:27:43.381 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:27:43.394 +08:00 [DBG] client credentials token request validation success
+2019-07-13 17:27:43.419 +08:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"api1","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 17:27:43.464 +08:00 [DBG] Getting claims for access token for client: client
+2019-07-13 17:27:43.616 +08:00 [INF] {"ClientId":"client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"api1","GrantType":"client_credentials","Tokens":[{"TokenType":"access_token","TokenValue":"****6tSQ","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7EH5CQ58B:00000003","TimeStamp":"2019-07-13T09:27:43.0000000Z","ProcessId":22472,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 17:27:43.644 +08:00 [DBG] Token request success.
+2019-07-13 17:27:45.461 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 17:27:45.466 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 17:27:45.468 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 17:27:45.470 +08:00 [DBG] Start token request.
+2019-07-13 17:27:45.507 +08:00 [DBG] Start client validation
+2019-07-13 17:27:45.519 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 17:27:45.520 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 17:27:45.523 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 17:27:45.527 +08:00 [DBG] Secret id found: client
+2019-07-13 17:27:45.538 +08:00 [DBG] client found in database: true
+2019-07-13 17:27:45.540 +08:00 [DBG] client configuration validation for client client succeeded.
+2019-07-13 17:27:45.552 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 17:27:45.553 +08:00 [DBG] Client validation success
+2019-07-13 17:27:45.554 +08:00 [INF] {"ClientId":"client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7EH5CQ58B:00000004","TimeStamp":"2019-07-13T09:27:45.0000000Z","ProcessId":22472,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 17:27:45.576 +08:00 [DBG] Start token request validation
+2019-07-13 17:27:45.596 +08:00 [DBG] Start validation of refresh token request
+2019-07-13 17:27:45.682 +08:00 [DBG] EdWuBsuNhs5e82UctZ2soaGRbpVSLi00gvNxBXQWMtw= found in database: false
+2019-07-13 17:27:45.687 +08:00 [DBG] refresh_token grant with value: xyz not found in store.
+2019-07-13 17:27:45.705 +08:00 [WRN] Invalid refresh token
+2019-07-13 17:27:45.710 +08:00 [WRN] Refresh token validation failed. aborting., request details: []
+2019-07-13 17:27:45.713 +08:00 [INF] {"ClientId":"client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"refresh_token","Error":"invalid_grant","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7EH5CQ58B:00000004","TimeStamp":"2019-07-13T09:27:45.0000000Z","ProcessId":22472,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 17:43:17.584 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-07-13 17:43:17.642 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-07-13 17:43:17.645 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-07-13 17:43:17.646 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-07-13 17:43:17.648 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-07-13 17:43:17.649 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-07-13 17:43:17.984 +08:00 [DBG] Starting grant removal
+2019-07-13 17:43:19.724 +08:00 [DBG] Login Url: /Account/Login
+2019-07-13 17:43:19.741 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-07-13 17:43:19.745 +08:00 [DBG] Logout Url: /Account/Logout
+2019-07-13 17:43:19.758 +08:00 [DBG] ConsentUrl Url: /consent
+2019-07-13 17:43:19.765 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-07-13 17:43:19.775 +08:00 [DBG] Error Url: /home/error
+2019-07-13 17:43:19.800 +08:00 [DBG] Error Id Parameter: errorId
+2019-07-13 17:43:55.414 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-07-13 17:43:55.422 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-07-13 17:43:55.424 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-07-13 17:43:55.441 +08:00 [DBG] Start discovery request
+2019-07-13 17:43:56.546 +08:00 [DBG] Found ["openid","profile","email","address","phone","roles","locations","api1"] as all scopes in database
+2019-07-13 17:43:56.831 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-07-13 17:43:56.840 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-07-13 17:43:56.848 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-07-13 17:43:56.856 +08:00 [DBG] Start key discovery request
+2019-07-13 17:43:57.428 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 17:43:57.447 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 17:43:57.449 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 17:43:57.467 +08:00 [DBG] Start token request.
+2019-07-13 17:43:57.483 +08:00 [DBG] Start client validation
+2019-07-13 17:43:57.495 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 17:43:57.503 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 17:43:57.529 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 17:43:57.532 +08:00 [DBG] Secret id found: client
+2019-07-13 17:43:58.085 +08:00 [DBG] client found in database: true
+2019-07-13 17:43:58.102 +08:00 [DBG] client configuration validation for client client succeeded.
+2019-07-13 17:43:58.118 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 17:43:58.118 +08:00 [DBG] Client validation success
+2019-07-13 17:43:58.152 +08:00 [INF] {"ClientId":"client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7EQ4GF6CH:00000003","TimeStamp":"2019-07-13T09:43:58.0000000Z","ProcessId":9828,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 17:43:58.170 +08:00 [DBG] Start token request validation
+2019-07-13 17:43:58.186 +08:00 [DBG] Start client credentials token request validation
+2019-07-13 17:43:58.279 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 17:43:58.377 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:43:58.395 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 17:43:58.423 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:43:58.430 +08:00 [DBG] client credentials token request validation success
+2019-07-13 17:43:58.442 +08:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"api1","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 17:43:58.507 +08:00 [DBG] Getting claims for access token for client: client
+2019-07-13 17:43:58.667 +08:00 [INF] {"ClientId":"client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"api1","GrantType":"client_credentials","Tokens":[{"TokenType":"access_token","TokenValue":"****vHIw","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7EQ4GF6CH:00000003","TimeStamp":"2019-07-13T09:43:58.0000000Z","ProcessId":9828,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 17:43:58.694 +08:00 [DBG] Token request success.
+2019-07-13 17:44:33.023 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-07-13 17:44:33.070 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-07-13 17:44:33.071 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-07-13 17:44:33.071 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-07-13 17:44:33.072 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-07-13 17:44:33.072 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-07-13 17:44:33.351 +08:00 [DBG] Starting grant removal
+2019-07-13 17:44:35.258 +08:00 [DBG] Login Url: /Account/Login
+2019-07-13 17:44:35.270 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-07-13 17:44:35.271 +08:00 [DBG] Logout Url: /Account/Logout
+2019-07-13 17:44:35.280 +08:00 [DBG] ConsentUrl Url: /consent
+2019-07-13 17:44:35.282 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-07-13 17:44:35.299 +08:00 [DBG] Error Url: /home/error
+2019-07-13 17:44:35.303 +08:00 [DBG] Error Id Parameter: errorId
+2019-07-13 17:45:39.045 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-07-13 17:45:39.060 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-07-13 17:45:39.067 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-07-13 17:45:39.080 +08:00 [DBG] Start discovery request
+2019-07-13 17:45:40.117 +08:00 [DBG] Found ["openid","profile","email","address","phone","roles","locations","api1"] as all scopes in database
+2019-07-13 17:45:40.419 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-07-13 17:45:40.426 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-07-13 17:45:40.432 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-07-13 17:45:40.443 +08:00 [DBG] Start key discovery request
+2019-07-13 17:45:40.963 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 17:45:40.981 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 17:45:40.984 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 17:45:41.011 +08:00 [DBG] Start token request.
+2019-07-13 17:45:41.021 +08:00 [DBG] Start client validation
+2019-07-13 17:45:41.032 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 17:45:41.039 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 17:45:41.067 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 17:45:41.067 +08:00 [DBG] Secret id found: client
+2019-07-13 17:45:41.589 +08:00 [DBG] client found in database: true
+2019-07-13 17:45:41.601 +08:00 [DBG] client configuration validation for client client succeeded.
+2019-07-13 17:45:41.622 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 17:45:41.623 +08:00 [DBG] Client validation success
+2019-07-13 17:45:41.657 +08:00 [INF] {"ClientId":"client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7EQR0R1L1:00000003","TimeStamp":"2019-07-13T09:45:41.0000000Z","ProcessId":24620,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 17:45:41.678 +08:00 [DBG] Start token request validation
+2019-07-13 17:45:41.693 +08:00 [DBG] Start client credentials token request validation
+2019-07-13 17:45:41.766 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 17:45:41.862 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:45:41.882 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 17:45:41.887 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:45:41.896 +08:00 [DBG] client credentials token request validation success
+2019-07-13 17:45:41.907 +08:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"api1","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 17:45:41.994 +08:00 [DBG] Getting claims for access token for client: client
+2019-07-13 17:45:42.152 +08:00 [INF] {"ClientId":"client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"api1","GrantType":"client_credentials","Tokens":[{"TokenType":"access_token","TokenValue":"****TqJA","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7EQR0R1L1:00000003","TimeStamp":"2019-07-13T09:45:42.0000000Z","ProcessId":24620,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 17:45:42.197 +08:00 [DBG] Token request success.
+2019-07-13 17:45:42.352 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 17:45:42.360 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 17:45:42.364 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 17:45:42.385 +08:00 [DBG] Start token request.
+2019-07-13 17:45:42.386 +08:00 [DBG] Start client validation
+2019-07-13 17:45:42.387 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 17:45:42.388 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 17:45:42.390 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 17:45:42.390 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 17:45:42.399 +08:00 [DBG] wpf client found in database: true
+2019-07-13 17:45:42.400 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 17:45:42.403 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 17:45:42.405 +08:00 [DBG] Client validation success
+2019-07-13 17:45:42.410 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7EQR0R1L2:00000001","TimeStamp":"2019-07-13T09:45:42.0000000Z","ProcessId":24620,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 17:45:42.418 +08:00 [DBG] Start token request validation
+2019-07-13 17:45:42.440 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 17:45:42.484 +08:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-07-13 17:45:42.514 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:45:42.529 +08:00 [DBG] Found ["openid","profile"] identity scopes in database
+2019-07-13 17:45:42.550 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:45:42.830 +08:00 [INF] Credentials validated for username: bob
+2019-07-13 17:45:42.840 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":"bob","Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7EQR0R1L2:00000001","TimeStamp":"2019-07-13T09:45:42.0000000Z","ProcessId":24620,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 17:45:42.880 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":null,"Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7EQR0R1L2:00000001","TimeStamp":"2019-07-13T09:45:42.0000000Z","ProcessId":24620,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 17:45:42.895 +08:00 [DBG] Resource owner password token request validation success.
+2019-07-13 17:45:42.899 +08:00 [INF] Token request validation success
+{"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":"api1 openid profile","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","username":"bob","password":"***REDACTED***","scope":"api1 openid profile","client_id":"wpf client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 17:45:42.915 +08:00 [DBG] Getting claims for access token for client: wpf client
+2019-07-13 17:45:42.916 +08:00 [DBG] Getting claims for access token for subject: 114db9fa-ee76-4b9a-90b0-8563e4652447
+2019-07-13 17:45:43.081 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","Scopes":"openid profile api1","GrantType":"password","Tokens":[{"TokenType":"access_token","TokenValue":"****CaJA","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7EQR0R1L2:00000001","TimeStamp":"2019-07-13T09:45:43.0000000Z","ProcessId":24620,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 17:45:43.099 +08:00 [DBG] Token request success.
+2019-07-13 17:45:44.956 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 17:45:44.960 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 17:45:44.961 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 17:45:44.963 +08:00 [DBG] Start token request.
+2019-07-13 17:45:44.964 +08:00 [DBG] Start client validation
+2019-07-13 17:45:44.965 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 17:45:44.966 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 17:45:44.967 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 17:45:44.967 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 17:45:44.978 +08:00 [DBG] wpf client found in database: true
+2019-07-13 17:45:44.980 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 17:45:44.982 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 17:45:44.982 +08:00 [DBG] Client validation success
+2019-07-13 17:45:44.991 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7EQR0R1L2:00000002","TimeStamp":"2019-07-13T09:45:44.0000000Z","ProcessId":24620,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 17:45:45.018 +08:00 [DBG] Start token request validation
+2019-07-13 17:45:45.023 +08:00 [DBG] Start validation of refresh token request
+2019-07-13 17:45:45.024 +08:00 [ERR] Refresh token too long, request details: []
+2019-07-13 17:45:45.027 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"refresh_token","Error":"invalid_grant","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7EQR0R1L2:00000002","TimeStamp":"2019-07-13T09:45:45.0000000Z","ProcessId":24620,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 17:50:52.005 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-07-13 17:50:52.069 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-07-13 17:50:52.070 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-07-13 17:50:52.071 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-07-13 17:50:52.071 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-07-13 17:50:52.071 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-07-13 17:50:52.463 +08:00 [DBG] Starting grant removal
+2019-07-13 17:50:54.272 +08:00 [DBG] Login Url: /Account/Login
+2019-07-13 17:50:54.286 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-07-13 17:50:54.292 +08:00 [DBG] Logout Url: /Account/Logout
+2019-07-13 17:50:54.295 +08:00 [DBG] ConsentUrl Url: /consent
+2019-07-13 17:50:54.307 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-07-13 17:50:54.356 +08:00 [DBG] Error Url: /home/error
+2019-07-13 17:50:54.360 +08:00 [DBG] Error Id Parameter: errorId
+2019-07-13 17:53:12.734 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-07-13 17:53:12.754 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-07-13 17:53:12.771 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-07-13 17:53:12.781 +08:00 [DBG] Start discovery request
+2019-07-13 17:53:14.227 +08:00 [DBG] Found ["openid","profile","email","address","phone","roles","locations","api1"] as all scopes in database
+2019-07-13 17:55:54.930 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 17:55:54.952 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 17:55:54.962 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 17:55:55.013 +08:00 [DBG] Start token request.
+2019-07-13 17:55:55.025 +08:00 [DBG] Start client validation
+2019-07-13 17:55:55.038 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 17:55:55.047 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 17:55:55.093 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 17:55:55.096 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 17:55:55.783 +08:00 [DBG] wpf client found in database: true
+2019-07-13 17:55:55.799 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 17:55:55.822 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 17:55:55.823 +08:00 [DBG] Client validation success
+2019-07-13 17:55:55.882 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7EUBSVHEF:00000003","TimeStamp":"2019-07-13T09:55:55.0000000Z","ProcessId":23264,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 17:55:55.923 +08:00 [DBG] Start token request validation
+2019-07-13 17:55:55.941 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 17:55:56.033 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 17:55:56.118 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:55:56.135 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 17:55:56.147 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 17:55:56.397 +08:00 [INF] Credentials validated for username: bob
+2019-07-13 17:55:56.402 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":"bob","Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7EUBSVHEF:00000003","TimeStamp":"2019-07-13T09:55:56.0000000Z","ProcessId":23264,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 17:55:56.451 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":null,"Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7EUBSVHEF:00000003","TimeStamp":"2019-07-13T09:55:56.0000000Z","ProcessId":23264,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 17:55:56.475 +08:00 [DBG] Resource owner password token request validation success.
+2019-07-13 17:55:56.515 +08:00 [INF] Token request validation success
+{"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"api1","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 17:55:56.609 +08:00 [DBG] Getting claims for access token for client: wpf client
+2019-07-13 17:55:56.612 +08:00 [DBG] Getting claims for access token for subject: 114db9fa-ee76-4b9a-90b0-8563e4652447
+2019-07-13 17:55:56.967 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","Scopes":"api1","GrantType":"password","Tokens":[{"TokenType":"access_token","TokenValue":"****gNzg","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7EUBSVHEF:00000003","TimeStamp":"2019-07-13T09:55:56.0000000Z","ProcessId":23264,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 17:55:56.994 +08:00 [DBG] Token request success.
+2019-07-13 17:57:34.246 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 17:57:34.253 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 17:57:34.258 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 17:57:34.260 +08:00 [DBG] Start token request.
+2019-07-13 17:57:34.266 +08:00 [DBG] Start client validation
+2019-07-13 17:57:34.268 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 17:57:34.273 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 17:57:34.296 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 17:57:34.314 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 17:57:34.336 +08:00 [DBG] wpf client found in database: true
+2019-07-13 17:57:34.345 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 17:57:34.364 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 17:57:34.364 +08:00 [DBG] Client validation success
+2019-07-13 17:57:34.368 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7EUBSVHEF:00000004","TimeStamp":"2019-07-13T09:57:34.0000000Z","ProcessId":23264,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 17:57:34.377 +08:00 [DBG] Start token request validation
+2019-07-13 17:57:34.405 +08:00 [DBG] Start validation of refresh token request
+2019-07-13 17:57:34.411 +08:00 [ERR] Refresh token too long, request details: []
+2019-07-13 17:57:34.421 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"refresh_token","Error":"invalid_grant","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7EUBSVHEF:00000004","TimeStamp":"2019-07-13T09:57:34.0000000Z","ProcessId":23264,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 17:58:32.218 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 17:58:32.229 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 17:58:32.247 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 17:58:32.272 +08:00 [DBG] Start token request.
+2019-07-13 17:58:32.277 +08:00 [DBG] Start client validation
+2019-07-13 17:58:32.297 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 17:58:32.314 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 17:58:32.322 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 17:58:32.325 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 17:58:32.346 +08:00 [DBG] wpf client found in database: true
+2019-07-13 17:58:32.356 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 17:58:32.378 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 17:58:32.384 +08:00 [DBG] Client validation success
+2019-07-13 17:58:32.391 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7EUBSVHEF:00000005","TimeStamp":"2019-07-13T09:58:32.0000000Z","ProcessId":23264,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 17:58:32.445 +08:00 [DBG] Start token request validation
+2019-07-13 17:58:32.450 +08:00 [DBG] Start validation of refresh token request
+2019-07-13 17:58:32.452 +08:00 [ERR] Refresh token is missing, request details: []
+2019-07-13 17:58:32.461 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"refresh_token","Error":"invalid_request","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7EUBSVHEF:00000005","TimeStamp":"2019-07-13T09:58:32.0000000Z","ProcessId":23264,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 18:00:31.405 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-07-13 18:00:31.446 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-07-13 18:00:31.446 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-07-13 18:00:31.447 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-07-13 18:00:31.447 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-07-13 18:00:31.447 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-07-13 18:00:31.693 +08:00 [DBG] Starting grant removal
+2019-07-13 18:00:33.553 +08:00 [DBG] Login Url: /Account/Login
+2019-07-13 18:00:33.568 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-07-13 18:00:33.572 +08:00 [DBG] Logout Url: /Account/Logout
+2019-07-13 18:00:33.578 +08:00 [DBG] ConsentUrl Url: /consent
+2019-07-13 18:00:33.613 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-07-13 18:00:33.624 +08:00 [DBG] Error Url: /home/error
+2019-07-13 18:00:33.626 +08:00 [DBG] Error Id Parameter: errorId
+2019-07-13 18:01:23.447 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 18:01:23.466 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 18:01:23.469 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 18:01:23.498 +08:00 [DBG] Start token request.
+2019-07-13 18:01:23.508 +08:00 [DBG] Start client validation
+2019-07-13 18:01:23.519 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 18:01:23.524 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 18:01:23.552 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 18:01:23.552 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 18:01:24.509 +08:00 [DBG] wpf client found in database: true
+2019-07-13 18:01:24.525 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 18:01:24.562 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 18:01:24.566 +08:00 [DBG] Client validation success
+2019-07-13 18:01:24.606 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000001","TimeStamp":"2019-07-13T10:01:24.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 18:01:24.633 +08:00 [DBG] Start token request validation
+2019-07-13 18:01:24.663 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 18:01:24.761 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 18:01:25.009 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 18:01:25.037 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 18:01:25.056 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 18:01:25.255 +08:00 [INF] Credentials validated for username: bob
+2019-07-13 18:01:25.262 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":"bob","Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000001","TimeStamp":"2019-07-13T10:01:25.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 18:01:25.290 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":null,"Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000001","TimeStamp":"2019-07-13T10:01:25.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 18:01:25.314 +08:00 [DBG] Resource owner password token request validation success.
+2019-07-13 18:01:25.336 +08:00 [INF] Token request validation success
+{"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"api1","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 18:01:25.398 +08:00 [DBG] Getting claims for access token for client: wpf client
+2019-07-13 18:01:25.403 +08:00 [DBG] Getting claims for access token for subject: 114db9fa-ee76-4b9a-90b0-8563e4652447
+2019-07-13 18:01:25.663 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","Scopes":"api1","GrantType":"password","Tokens":[{"TokenType":"access_token","TokenValue":"****o58A","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000001","TimeStamp":"2019-07-13T10:01:25.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 18:01:25.671 +08:00 [DBG] Token request success.
+2019-07-13 18:01:35.066 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 18:01:35.070 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 18:01:35.073 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 18:01:35.075 +08:00 [DBG] Start token request.
+2019-07-13 18:01:35.076 +08:00 [DBG] Start client validation
+2019-07-13 18:01:35.086 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 18:01:35.096 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 18:01:35.102 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 18:01:35.133 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 18:01:35.161 +08:00 [DBG] wpf client found in database: true
+2019-07-13 18:01:35.173 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 18:01:35.181 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 18:01:35.188 +08:00 [DBG] Client validation success
+2019-07-13 18:01:35.199 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000002","TimeStamp":"2019-07-13T10:01:35.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 18:01:35.247 +08:00 [DBG] Start token request validation
+2019-07-13 18:01:35.258 +08:00 [DBG] Start validation of refresh token request
+2019-07-13 18:01:35.263 +08:00 [ERR] Refresh token too long, request details: []
+2019-07-13 18:01:35.277 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"refresh_token","Error":"invalid_grant","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000002","TimeStamp":"2019-07-13T10:01:35.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 18:01:39.659 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 18:01:39.668 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 18:01:39.682 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 18:01:39.685 +08:00 [DBG] Start token request.
+2019-07-13 18:01:39.689 +08:00 [DBG] Start client validation
+2019-07-13 18:01:39.690 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 18:01:39.696 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 18:01:39.701 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 18:01:39.702 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 18:01:39.714 +08:00 [DBG] wpf client found in database: true
+2019-07-13 18:01:39.716 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 18:01:39.730 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 18:01:39.744 +08:00 [DBG] Client validation success
+2019-07-13 18:01:39.746 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000003","TimeStamp":"2019-07-13T10:01:39.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 18:01:39.763 +08:00 [DBG] Start token request validation
+2019-07-13 18:01:39.765 +08:00 [DBG] Start validation of refresh token request
+2019-07-13 18:01:39.767 +08:00 [ERR] Refresh token is missing, request details: []
+2019-07-13 18:01:39.782 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"refresh_token","Error":"invalid_request","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000003","TimeStamp":"2019-07-13T10:01:39.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 18:02:39.290 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 18:02:39.295 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 18:02:39.302 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 18:02:39.307 +08:00 [DBG] Start token request.
+2019-07-13 18:02:39.308 +08:00 [DBG] Start client validation
+2019-07-13 18:02:39.309 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 18:02:39.310 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 18:02:39.312 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 18:02:39.322 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 18:02:39.344 +08:00 [DBG] wpf client found in database: true
+2019-07-13 18:02:39.345 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 18:02:39.346 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 18:02:39.347 +08:00 [DBG] Client validation success
+2019-07-13 18:02:39.348 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000004","TimeStamp":"2019-07-13T10:02:39.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 18:02:39.364 +08:00 [DBG] Start token request validation
+2019-07-13 18:02:39.365 +08:00 [DBG] Start validation of refresh token request
+2019-07-13 18:02:39.677 +08:00 [DBG] EdWuBsuNhs5e82UctZ2soaGRbpVSLi00gvNxBXQWMtw= found in database: false
+2019-07-13 18:02:39.680 +08:00 [DBG] refresh_token grant with value: xyz not found in store.
+2019-07-13 18:02:39.682 +08:00 [WRN] Invalid refresh token
+2019-07-13 18:02:39.685 +08:00 [WRN] Refresh token validation failed. aborting., request details: []
+2019-07-13 18:02:39.694 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"refresh_token","Error":"invalid_grant","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000004","TimeStamp":"2019-07-13T10:02:39.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 19:00:31.750 +08:00 [INF] Removing 0 grants
+2019-07-13 19:05:39.124 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:05:39.129 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:05:39.137 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:05:39.149 +08:00 [DBG] Start token request.
+2019-07-13 19:05:39.150 +08:00 [DBG] Start client validation
+2019-07-13 19:05:39.152 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:05:39.162 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:05:39.164 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:05:39.167 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:05:39.199 +08:00 [DBG] wpf client found in database: true
+2019-07-13 19:05:39.200 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:05:39.210 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:05:39.223 +08:00 [DBG] Client validation success
+2019-07-13 19:05:39.229 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000005","TimeStamp":"2019-07-13T11:05:39.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:05:39.234 +08:00 [DBG] Start token request validation
+2019-07-13 19:05:39.245 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 19:05:39.250 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 19:05:39.258 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 19:05:39.263 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 19:05:39.269 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 19:05:39.286 +08:00 [INF] Credentials validated for username: bob
+2019-07-13 19:05:39.289 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":"bob","Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000005","TimeStamp":"2019-07-13T11:05:39.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 19:05:39.301 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":null,"Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000005","TimeStamp":"2019-07-13T11:05:39.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 19:05:39.307 +08:00 [DBG] Resource owner password token request validation success.
+2019-07-13 19:05:39.308 +08:00 [INF] Token request validation success
+{"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"api1","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:05:39.321 +08:00 [DBG] Getting claims for access token for client: wpf client
+2019-07-13 19:05:39.322 +08:00 [DBG] Getting claims for access token for subject: 114db9fa-ee76-4b9a-90b0-8563e4652447
+2019-07-13 19:05:39.338 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","Scopes":"api1","GrantType":"password","Tokens":[{"TokenType":"access_token","TokenValue":"****opEw","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000005","TimeStamp":"2019-07-13T11:05:39.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 19:05:39.353 +08:00 [DBG] Token request success.
+2019-07-13 19:05:55.825 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:05:55.829 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:05:55.836 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:05:55.844 +08:00 [DBG] Start token request.
+2019-07-13 19:05:55.851 +08:00 [DBG] Start client validation
+2019-07-13 19:05:55.855 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:05:55.856 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:05:55.858 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:05:55.862 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:05:55.874 +08:00 [DBG] wpf client found in database: true
+2019-07-13 19:05:55.875 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:05:55.880 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:05:55.884 +08:00 [DBG] Client validation success
+2019-07-13 19:05:55.885 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000006","TimeStamp":"2019-07-13T11:05:55.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:05:55.892 +08:00 [DBG] Start token request validation
+2019-07-13 19:05:55.907 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 19:05:55.910 +08:00 [ERR] offline_access is not allowed for this client: wpf client
+2019-07-13 19:05:55.913 +08:00 [ERR] {"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":null,"AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"api1 offline_access","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:05:55.938 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"password","Error":"invalid_scope","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000006","TimeStamp":"2019-07-13T11:05:55.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 19:06:01.078 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:06:01.084 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:06:01.089 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:06:01.099 +08:00 [DBG] Start token request.
+2019-07-13 19:06:01.103 +08:00 [DBG] Start client validation
+2019-07-13 19:06:01.105 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:06:01.115 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:06:01.119 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:06:01.120 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:06:01.128 +08:00 [DBG] wpf client found in database: true
+2019-07-13 19:06:01.134 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:06:01.140 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:06:01.142 +08:00 [DBG] Client validation success
+2019-07-13 19:06:01.145 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000007","TimeStamp":"2019-07-13T11:06:01.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:06:01.158 +08:00 [DBG] Start token request validation
+2019-07-13 19:06:01.159 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 19:06:01.161 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 19:06:01.169 +08:00 [DBG] Found [] API scopes in database
+2019-07-13 19:06:01.172 +08:00 [ERR] Requested scope not allowed: api1,offline_access
+2019-07-13 19:06:01.176 +08:00 [ERR] {"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":null,"AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"api1,offline_access","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:06:01.185 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"password","Error":"invalid_scope","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000007","TimeStamp":"2019-07-13T11:06:01.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 19:06:07.496 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:06:07.500 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:06:07.501 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:06:07.505 +08:00 [DBG] Start token request.
+2019-07-13 19:06:07.510 +08:00 [DBG] Start client validation
+2019-07-13 19:06:07.516 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:06:07.522 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:06:07.524 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:06:07.527 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:06:07.538 +08:00 [DBG] wpf client found in database: true
+2019-07-13 19:06:07.539 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:06:07.540 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:06:07.550 +08:00 [DBG] Client validation success
+2019-07-13 19:06:07.553 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000008","TimeStamp":"2019-07-13T11:06:07.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:06:07.564 +08:00 [DBG] Start token request validation
+2019-07-13 19:06:07.567 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 19:06:07.568 +08:00 [ERR] offline_access is not allowed for this client: wpf client
+2019-07-13 19:06:07.570 +08:00 [ERR] {"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":null,"AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"api1 offline_access","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:06:07.591 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"password","Error":"invalid_scope","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000008","TimeStamp":"2019-07-13T11:06:07.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 19:06:16.260 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:06:16.264 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:06:16.272 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:06:16.277 +08:00 [DBG] Start token request.
+2019-07-13 19:06:16.278 +08:00 [DBG] Start client validation
+2019-07-13 19:06:16.279 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:06:16.280 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:06:16.290 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:06:16.291 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:06:16.297 +08:00 [DBG] wpf client found in database: true
+2019-07-13 19:06:16.298 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:06:16.314 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:06:16.315 +08:00 [DBG] Client validation success
+2019-07-13 19:06:16.318 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000009","TimeStamp":"2019-07-13T11:06:16.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:06:16.324 +08:00 [DBG] Start token request validation
+2019-07-13 19:06:16.324 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 19:06:16.325 +08:00 [ERR] offline_access is not allowed for this client: wpf client
+2019-07-13 19:06:16.327 +08:00 [ERR] {"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":null,"AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"offline_access","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:06:16.350 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"password","Error":"invalid_scope","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7F3OIKDCD:00000009","TimeStamp":"2019-07-13T11:06:16.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 19:07:03.556 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:07:03.562 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:07:03.567 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:07:03.569 +08:00 [DBG] Start token request.
+2019-07-13 19:07:03.573 +08:00 [DBG] Start client validation
+2019-07-13 19:07:03.574 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:07:03.576 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:07:03.577 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:07:03.581 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:07:03.602 +08:00 [DBG] wpf client found in database: true
+2019-07-13 19:07:03.604 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:07:03.607 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:07:03.613 +08:00 [DBG] Client validation success
+2019-07-13 19:07:03.617 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7F3OIKDCD:0000000A","TimeStamp":"2019-07-13T11:07:03.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:07:03.620 +08:00 [DBG] Start token request validation
+2019-07-13 19:07:03.621 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 19:07:03.621 +08:00 [ERR] offline_access is not allowed for this client: wpf client
+2019-07-13 19:07:03.622 +08:00 [ERR] {"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":null,"AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"offline_access","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:07:03.644 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"password","Error":"invalid_scope","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7F3OIKDCD:0000000A","TimeStamp":"2019-07-13T11:07:03.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 19:07:30.357 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:07:30.361 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:07:30.374 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:07:30.377 +08:00 [DBG] Start token request.
+2019-07-13 19:07:30.378 +08:00 [DBG] Start client validation
+2019-07-13 19:07:30.383 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:07:30.391 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:07:30.397 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:07:30.399 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:07:30.416 +08:00 [DBG] wpf client found in database: true
+2019-07-13 19:07:30.417 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:07:30.419 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:07:30.422 +08:00 [DBG] Client validation success
+2019-07-13 19:07:30.427 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7F3OIKDCD:0000000B","TimeStamp":"2019-07-13T11:07:30.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:07:30.461 +08:00 [DBG] Start token request validation
+2019-07-13 19:07:30.462 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 19:07:30.466 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 19:07:30.478 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 19:07:30.483 +08:00 [DBG] Found [] identity scopes in database
+2019-07-13 19:07:30.490 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 19:07:30.504 +08:00 [INF] Credentials validated for username: bob
+2019-07-13 19:07:30.505 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":"bob","Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7F3OIKDCD:0000000B","TimeStamp":"2019-07-13T11:07:30.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 19:07:30.519 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":null,"Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7F3OIKDCD:0000000B","TimeStamp":"2019-07-13T11:07:30.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 19:07:30.528 +08:00 [DBG] Resource owner password token request validation success.
+2019-07-13 19:07:30.529 +08:00 [INF] Token request validation success
+{"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"api1","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:07:30.540 +08:00 [DBG] Getting claims for access token for client: wpf client
+2019-07-13 19:07:30.541 +08:00 [DBG] Getting claims for access token for subject: 114db9fa-ee76-4b9a-90b0-8563e4652447
+2019-07-13 19:07:30.551 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","Scopes":"api1","GrantType":"password","Tokens":[{"TokenType":"access_token","TokenValue":"****rEVQ","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7F3OIKDCD:0000000B","TimeStamp":"2019-07-13T11:07:30.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 19:07:30.555 +08:00 [DBG] Token request success.
+2019-07-13 19:07:48.807 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:07:48.812 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:07:48.817 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:07:48.820 +08:00 [DBG] Start token request.
+2019-07-13 19:07:48.824 +08:00 [DBG] Start client validation
+2019-07-13 19:07:48.831 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:07:48.833 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:07:48.839 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:07:48.840 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:07:48.849 +08:00 [DBG] wpf client found in database: true
+2019-07-13 19:07:48.850 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:07:48.852 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:07:48.854 +08:00 [DBG] Client validation success
+2019-07-13 19:07:48.855 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7F3OIKDCD:0000000C","TimeStamp":"2019-07-13T11:07:48.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:07:48.871 +08:00 [DBG] Start token request validation
+2019-07-13 19:07:48.872 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 19:07:48.914 +08:00 [DBG] Found ["openid"] identity scopes in database
+2019-07-13 19:07:48.965 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 19:07:48.977 +08:00 [DBG] Found ["openid"] identity scopes in database
+2019-07-13 19:07:48.984 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 19:07:49.008 +08:00 [INF] Credentials validated for username: bob
+2019-07-13 19:07:49.009 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":"bob","Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7F3OIKDCD:0000000C","TimeStamp":"2019-07-13T11:07:49.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 19:07:49.022 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":null,"Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7F3OIKDCD:0000000C","TimeStamp":"2019-07-13T11:07:49.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 19:07:49.026 +08:00 [DBG] Resource owner password token request validation success.
+2019-07-13 19:07:49.029 +08:00 [INF] Token request validation success
+{"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":"api1 openid","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"api1 openid","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:07:49.041 +08:00 [DBG] Getting claims for access token for client: wpf client
+2019-07-13 19:07:49.042 +08:00 [DBG] Getting claims for access token for subject: 114db9fa-ee76-4b9a-90b0-8563e4652447
+2019-07-13 19:07:49.051 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","Scopes":"openid api1","GrantType":"password","Tokens":[{"TokenType":"access_token","TokenValue":"****EVFw","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7F3OIKDCD:0000000C","TimeStamp":"2019-07-13T11:07:49.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 19:07:49.061 +08:00 [DBG] Token request success.
+2019-07-13 19:09:07.373 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:09:07.382 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:09:07.391 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:09:07.403 +08:00 [DBG] Start token request.
+2019-07-13 19:09:07.412 +08:00 [DBG] Start client validation
+2019-07-13 19:09:07.419 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:09:07.421 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:09:07.428 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:09:07.430 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:09:07.466 +08:00 [DBG] wpf client found in database: true
+2019-07-13 19:09:07.467 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:09:07.472 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:09:07.474 +08:00 [DBG] Client validation success
+2019-07-13 19:09:07.476 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7F3OIKDCD:0000000D","TimeStamp":"2019-07-13T11:09:07.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:09:07.491 +08:00 [DBG] Start token request validation
+2019-07-13 19:09:07.492 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 19:09:07.499 +08:00 [ERR] offline_access is not allowed for this client: wpf client
+2019-07-13 19:09:07.502 +08:00 [ERR] {"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":null,"AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"api1 openid offline_access","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:09:07.514 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"password","Error":"invalid_scope","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7F3OIKDCD:0000000D","TimeStamp":"2019-07-13T11:09:07.0000000Z","ProcessId":24368,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 19:13:18.351 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-07-13 19:13:18.395 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-07-13 19:13:18.395 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-07-13 19:13:18.396 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-07-13 19:13:18.396 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-07-13 19:13:18.396 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-07-13 19:13:18.641 +08:00 [DBG] Starting grant removal
+2019-07-13 19:13:20.654 +08:00 [DBG] Login Url: /Account/Login
+2019-07-13 19:13:20.662 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-07-13 19:13:20.663 +08:00 [DBG] Logout Url: /Account/Logout
+2019-07-13 19:13:20.664 +08:00 [DBG] ConsentUrl Url: /consent
+2019-07-13 19:13:20.666 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-07-13 19:13:20.667 +08:00 [DBG] Error Url: /home/error
+2019-07-13 19:13:20.676 +08:00 [DBG] Error Id Parameter: errorId
+2019-07-13 19:13:37.960 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:13:37.995 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:13:37.998 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:13:38.018 +08:00 [DBG] Start token request.
+2019-07-13 19:13:38.035 +08:00 [DBG] Start client validation
+2019-07-13 19:13:38.047 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:13:38.055 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:13:38.092 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:13:38.094 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:13:39.370 +08:00 [DBG] wpf client found in database: true
+2019-07-13 19:13:39.401 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:13:39.425 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:13:39.426 +08:00 [DBG] Client validation success
+2019-07-13 19:13:39.490 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7GCE1AVLB:00000001","TimeStamp":"2019-07-13T11:13:39.0000000Z","ProcessId":18980,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:13:39.526 +08:00 [DBG] Start token request validation
+2019-07-13 19:13:39.565 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 19:13:39.591 +08:00 [ERR] offline_access is not allowed for this client: wpf client
+2019-07-13 19:13:39.617 +08:00 [ERR] {"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":null,"AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"api1 openid offline_access","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:13:39.653 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"password","Error":"invalid_scope","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7GCE1AVLB:00000001","TimeStamp":"2019-07-13T11:13:39.0000000Z","ProcessId":18980,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 19:13:44.412 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:13:44.416 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:13:44.418 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:13:44.428 +08:00 [DBG] Start token request.
+2019-07-13 19:13:44.429 +08:00 [DBG] Start client validation
+2019-07-13 19:13:44.431 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:13:44.432 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:13:44.435 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:13:44.441 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:13:44.460 +08:00 [DBG] wpf client found in database: true
+2019-07-13 19:13:44.460 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:13:44.463 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:13:44.464 +08:00 [DBG] Client validation success
+2019-07-13 19:13:44.465 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7GCE1AVLB:00000002","TimeStamp":"2019-07-13T11:13:44.0000000Z","ProcessId":18980,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:13:44.483 +08:00 [DBG] Start token request validation
+2019-07-13 19:13:44.490 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 19:13:44.606 +08:00 [DBG] Found ["openid"] identity scopes in database
+2019-07-13 19:13:44.993 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 19:13:45.029 +08:00 [DBG] Found ["openid"] identity scopes in database
+2019-07-13 19:13:45.043 +08:00 [DBG] Found ["api1"] API scopes in database
+2019-07-13 19:13:45.313 +08:00 [INF] Credentials validated for username: bob
+2019-07-13 19:13:45.337 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":"bob","Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7GCE1AVLB:00000002","TimeStamp":"2019-07-13T11:13:45.0000000Z","ProcessId":18980,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 19:13:45.358 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":null,"Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7GCE1AVLB:00000002","TimeStamp":"2019-07-13T11:13:45.0000000Z","ProcessId":18980,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 19:13:45.369 +08:00 [DBG] Resource owner password token request validation success.
+2019-07-13 19:13:45.373 +08:00 [INF] Token request validation success
+{"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":"api1 openid","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"api1 openid ","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:13:45.413 +08:00 [DBG] Getting claims for access token for client: wpf client
+2019-07-13 19:13:45.414 +08:00 [DBG] Getting claims for access token for subject: 114db9fa-ee76-4b9a-90b0-8563e4652447
+2019-07-13 19:13:45.707 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","Scopes":"openid api1","GrantType":"password","Tokens":[{"TokenType":"access_token","TokenValue":"****T_5Q","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7GCE1AVLB:00000002","TimeStamp":"2019-07-13T11:13:45.0000000Z","ProcessId":18980,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 19:13:45.717 +08:00 [DBG] Token request success.
+2019-07-13 19:19:01.315 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-07-13 19:19:01.486 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-07-13 19:19:01.503 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-07-13 19:19:01.505 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-07-13 19:19:01.506 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-07-13 19:19:01.507 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-07-13 19:19:01.508 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-07-13 19:19:06.192 +08:00 [DBG] Login Url: /Account/Login
+2019-07-13 19:19:06.227 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-07-13 19:19:06.277 +08:00 [DBG] Logout Url: /Account/Logout
+2019-07-13 19:19:06.297 +08:00 [DBG] ConsentUrl Url: /consent
+2019-07-13 19:19:06.312 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-07-13 19:19:06.365 +08:00 [DBG] Error Url: /home/error
+2019-07-13 19:19:06.439 +08:00 [DBG] Error Id Parameter: errorId
+2019-07-13 19:19:13.333 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:19:14.615 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:19:14.617 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:19:14.664 +08:00 [DBG] Start token request.
+2019-07-13 19:19:14.685 +08:00 [DBG] Start client validation
+2019-07-13 19:19:14.704 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:19:14.719 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:19:14.834 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:19:14.834 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:19:14.910 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:19:14.964 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:19:14.970 +08:00 [DBG] Client validation success
+2019-07-13 19:19:15.140 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7GFKF5H5U:00000001","TimeStamp":"2019-07-13T11:19:15.0000000Z","ProcessId":13656,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:19:15.304 +08:00 [DBG] Start token request validation
+2019-07-13 19:19:15.389 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 19:19:18.762 +08:00 [INF] Credentials validated for username: bob
+2019-07-13 19:19:18.792 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":"bob","Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7GFKF5H5U:00000001","TimeStamp":"2019-07-13T11:19:18.0000000Z","ProcessId":13656,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 19:19:18.967 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":null,"Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7GFKF5H5U:00000001","TimeStamp":"2019-07-13T11:19:18.0000000Z","ProcessId":13656,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 19:19:19.050 +08:00 [DBG] Resource owner password token request validation success.
+2019-07-13 19:19:19.105 +08:00 [INF] Token request validation success
+{"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":"api1 openid","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"api1 openid ","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:19:19.297 +08:00 [DBG] Getting claims for access token for client: wpf client
+2019-07-13 19:19:19.309 +08:00 [DBG] Getting claims for access token for subject: 114db9fa-ee76-4b9a-90b0-8563e4652447
+2019-07-13 19:19:21.031 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","Scopes":"openid api1","GrantType":"password","Tokens":[{"TokenType":"access_token","TokenValue":"****orRQ","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7GFKF5H5U:00000001","TimeStamp":"2019-07-13T11:19:21.0000000Z","ProcessId":13656,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 19:19:21.126 +08:00 [DBG] Token request success.
+2019-07-13 19:19:35.471 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:19:35.487 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:19:35.504 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:19:35.530 +08:00 [DBG] Start token request.
+2019-07-13 19:19:35.541 +08:00 [DBG] Start client validation
+2019-07-13 19:19:35.543 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:19:35.558 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:19:35.586 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:19:35.602 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:19:35.604 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:19:35.615 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:19:35.631 +08:00 [DBG] Client validation success
+2019-07-13 19:19:35.637 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7GFKF5H5U:00000002","TimeStamp":"2019-07-13T11:19:35.0000000Z","ProcessId":13656,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:19:35.699 +08:00 [DBG] Start token request validation
+2019-07-13 19:19:35.702 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 19:19:35.756 +08:00 [INF] Credentials validated for username: bob
+2019-07-13 19:19:35.766 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":"bob","Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7GFKF5H5U:00000002","TimeStamp":"2019-07-13T11:19:35.0000000Z","ProcessId":13656,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 19:19:35.817 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":null,"Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7GFKF5H5U:00000002","TimeStamp":"2019-07-13T11:19:35.0000000Z","ProcessId":13656,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 19:19:35.885 +08:00 [DBG] Resource owner password token request validation success.
+2019-07-13 19:19:35.896 +08:00 [INF] Token request validation success
+{"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":"api1 offline_access openid","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"wpf client","client_secret":"***REDACTED***","scope":"api1 openid offline_access","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:19:35.961 +08:00 [DBG] Getting claims for access token for client: wpf client
+2019-07-13 19:19:35.974 +08:00 [DBG] Getting claims for access token for subject: 114db9fa-ee76-4b9a-90b0-8563e4652447
+2019-07-13 19:19:36.071 +08:00 [DBG] Creating refresh token
+2019-07-13 19:19:36.079 +08:00 [DBG] Setting an absolute lifetime: 2592000
+2019-07-13 19:19:36.193 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","Scopes":"openid api1 offline_access","GrantType":"password","Tokens":[{"TokenType":"refresh_token","TokenValue":"****5edb","$type":"Token"},{"TokenType":"access_token","TokenValue":"****rtiA","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7GFKF5H5U:00000002","TimeStamp":"2019-07-13T11:19:36.0000000Z","ProcessId":13656,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 19:19:36.258 +08:00 [DBG] Token request success.
+2019-07-13 19:20:21.659 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:20:21.671 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:20:21.685 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:20:21.702 +08:00 [DBG] Start token request.
+2019-07-13 19:20:21.710 +08:00 [DBG] Start client validation
+2019-07-13 19:20:21.730 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:20:21.740 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:20:21.773 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:20:21.775 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:20:21.787 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:20:21.796 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:20:21.810 +08:00 [DBG] Client validation success
+2019-07-13 19:20:21.823 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7GFKF5H5U:00000003","TimeStamp":"2019-07-13T11:20:21.0000000Z","ProcessId":13656,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:20:21.883 +08:00 [DBG] Start token request validation
+2019-07-13 19:20:21.925 +08:00 [DBG] Start validation of refresh token request
+2019-07-13 19:20:22.230 +08:00 [DBG] Token validation success
+{"ClientId":"wpf client","ClientName":null,"ValidateLifetime":false,"AccessTokenType":null,"ExpectedScope":null,"TokenHandle":null,"JwtId":null,"Claims":{"sub":"114db9fa-ee76-4b9a-90b0-8563e4652447","client_id":"wpf client","scope":["openid","api1","offline_access"],"auth_time":1563016775,"idp":"local","amr":"pwd","location":"somewhere"},"$type":"TokenValidationLog"}
+2019-07-13 19:20:22.316 +08:00 [DBG] Validation of refresh token request success
+2019-07-13 19:20:22.323 +08:00 [INF] Token request validation success
+{"ClientId":"wpf client","ClientName":null,"GrantType":"refresh_token","Scopes":null,"AuthorizationCode":null,"RefreshToken":"d9c4d603a9ac64acfdabc676da31ba70846b3affbabf00b8842e61a90b515edb","UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"refresh_token","client_id":"wpf client","client_secret":"***REDACTED***","refresh_token":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:20:22.445 +08:00 [DBG] Updating refresh token
+2019-07-13 19:20:22.445 +08:00 [DBG] Token usage is one-time only. Generating new handle
+2019-07-13 19:20:22.518 +08:00 [DBG] Created refresh token in store
+2019-07-13 19:20:22.597 +08:00 [DBG] Getting claims for identity token for subject: 114db9fa-ee76-4b9a-90b0-8563e4652447 and client: wpf client
+2019-07-13 19:20:22.608 +08:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2019-07-13 19:20:22.626 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","Scopes":"openid api1 offline_access","GrantType":"refresh_token","Tokens":[{"TokenType":"id_token","TokenValue":"****jKvw","$type":"Token"},{"TokenType":"refresh_token","TokenValue":"****c3f8","$type":"Token"},{"TokenType":"access_token","TokenValue":"****NIeA","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7GFKF5H5U:00000003","TimeStamp":"2019-07-13T11:20:22.0000000Z","ProcessId":13656,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 19:20:22.699 +08:00 [DBG] Token request success.
+2019-07-13 19:23:49.180 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-07-13 19:23:49.340 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-07-13 19:23:49.356 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-07-13 19:23:49.358 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-07-13 19:23:49.359 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-07-13 19:23:49.360 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-07-13 19:23:49.362 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-07-13 19:23:53.098 +08:00 [DBG] Login Url: /Account/Login
+2019-07-13 19:23:53.112 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-07-13 19:23:53.146 +08:00 [DBG] Logout Url: /Account/Logout
+2019-07-13 19:23:53.175 +08:00 [DBG] ConsentUrl Url: /consent
+2019-07-13 19:23:53.182 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-07-13 19:23:53.193 +08:00 [DBG] Error Url: /home/error
+2019-07-13 19:23:53.200 +08:00 [DBG] Error Id Parameter: errorId
+2019-07-13 19:28:33.485 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:28:33.536 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:28:33.551 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:28:33.610 +08:00 [DBG] Start token request.
+2019-07-13 19:28:33.655 +08:00 [DBG] Start client validation
+2019-07-13 19:28:33.706 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:28:33.722 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:28:33.776 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:28:33.778 +08:00 [DBG] Secret id found: client
+2019-07-13 19:28:33.834 +08:00 [DBG] client configuration validation for client client succeeded.
+2019-07-13 19:28:33.870 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:28:33.871 +08:00 [DBG] Client validation success
+2019-07-13 19:28:33.994 +08:00 [INF] {"ClientId":"client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7GIA4JJGL:00000001","TimeStamp":"2019-07-13T11:28:33.0000000Z","ProcessId":14508,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:28:34.101 +08:00 [DBG] Start token request validation
+2019-07-13 19:28:34.152 +08:00 [DBG] Start validation of custom grant token request
+2019-07-13 19:28:34.183 +08:00 [ERR] ["client"] does not have the custom grant type in the allowed list, therefore requested grant is not allowed, request details: {"ClientId":"client","ClientName":"Client Credentials Client","GrantType":"client","Scopes":null,"AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client","client_id":"client","client_secret":"***REDACTED***","scope":"api1 offline_access"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:28:34.202 +08:00 [INF] {"ClientId":"client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"client","Error":"unsupported_grant_type","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7GIA4JJGL:00000001","TimeStamp":"2019-07-13T11:28:34.0000000Z","ProcessId":14508,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 19:30:36.954 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:30:37.052 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:30:37.089 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:30:37.106 +08:00 [DBG] Start token request.
+2019-07-13 19:30:37.129 +08:00 [DBG] Start client validation
+2019-07-13 19:30:37.147 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:30:37.174 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:30:37.179 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:30:37.182 +08:00 [DBG] Secret id found: client
+2019-07-13 19:30:37.202 +08:00 [DBG] client configuration validation for client client succeeded.
+2019-07-13 19:30:37.235 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:30:37.247 +08:00 [DBG] Client validation success
+2019-07-13 19:30:37.265 +08:00 [INF] {"ClientId":"client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7GIA4JJGL:00000002","TimeStamp":"2019-07-13T11:30:37.0000000Z","ProcessId":14508,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:30:37.333 +08:00 [DBG] Start token request validation
+2019-07-13 19:30:37.386 +08:00 [DBG] Start client credentials token request validation
+2019-07-13 19:30:37.596 +08:00 [ERR] ["client"] cannot request a refresh token in client credentials flow, request details: {"ClientId":"client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"api1 offline_access","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","client_id":"client","client_secret":"***REDACTED***","scope":"api1 offline_access"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:30:37.668 +08:00 [INF] {"ClientId":"client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"api1 offline_access","GrantType":"client_credentials","Error":"invalid_scope","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLO7GIA4JJGL:00000002","TimeStamp":"2019-07-13T11:30:37.0000000Z","ProcessId":14508,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-07-13 19:30:44.126 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:30:44.174 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:30:44.226 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:30:44.262 +08:00 [DBG] Start token request.
+2019-07-13 19:30:44.266 +08:00 [DBG] Start client validation
+2019-07-13 19:30:44.278 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:30:44.303 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:30:44.357 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:30:44.375 +08:00 [DBG] Secret id found: client
+2019-07-13 19:30:44.399 +08:00 [DBG] client configuration validation for client client succeeded.
+2019-07-13 19:30:44.430 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:30:44.474 +08:00 [DBG] Client validation success
+2019-07-13 19:30:44.520 +08:00 [INF] {"ClientId":"client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7GIA4JJGL:00000003","TimeStamp":"2019-07-13T11:30:44.0000000Z","ProcessId":14508,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:30:44.667 +08:00 [DBG] Start token request validation
+2019-07-13 19:30:44.670 +08:00 [DBG] Start client credentials token request validation
+2019-07-13 19:30:44.674 +08:00 [DBG] client credentials token request validation success
+2019-07-13 19:30:44.676 +08:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","client_id":"client","client_secret":"***REDACTED***","scope":"api1 "},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:30:44.910 +08:00 [DBG] Getting claims for access token for client: client
+2019-07-13 19:30:45.382 +08:00 [INF] {"ClientId":"client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"api1","GrantType":"client_credentials","Tokens":[{"TokenType":"access_token","TokenValue":"****5l4Q","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7GIA4JJGL:00000003","TimeStamp":"2019-07-13T11:30:45.0000000Z","ProcessId":14508,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 19:30:45.432 +08:00 [DBG] Token request success.
+2019-07-13 19:33:27.240 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-07-13 19:33:27.413 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-07-13 19:33:27.432 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-07-13 19:33:27.434 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-07-13 19:33:27.435 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-07-13 19:33:27.436 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-07-13 19:33:27.436 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-07-13 19:33:31.340 +08:00 [DBG] Login Url: /Account/Login
+2019-07-13 19:33:31.354 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-07-13 19:33:31.400 +08:00 [DBG] Logout Url: /Account/Logout
+2019-07-13 19:33:31.404 +08:00 [DBG] ConsentUrl Url: /consent
+2019-07-13 19:33:31.426 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-07-13 19:33:31.454 +08:00 [DBG] Error Url: /home/error
+2019-07-13 19:33:31.470 +08:00 [DBG] Error Id Parameter: errorId
+2019-07-13 19:34:16.575 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-07-13 19:34:16.596 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-07-13 19:34:16.616 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-07-13 19:34:16.641 +08:00 [DBG] Start discovery request
+2019-07-13 19:34:17.272 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-07-13 19:34:17.279 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-07-13 19:34:17.291 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-07-13 19:34:17.317 +08:00 [DBG] Start key discovery request
+2019-07-13 19:34:18.673 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:34:18.724 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:34:18.730 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:34:18.776 +08:00 [DBG] Start token request.
+2019-07-13 19:34:18.810 +08:00 [DBG] Start client validation
+2019-07-13 19:34:18.839 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:34:18.847 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:34:18.940 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:34:18.942 +08:00 [DBG] Secret id found: client
+2019-07-13 19:34:18.987 +08:00 [DBG] client configuration validation for client client succeeded.
+2019-07-13 19:34:19.024 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:34:19.026 +08:00 [DBG] Client validation success
+2019-07-13 19:34:19.121 +08:00 [INF] {"ClientId":"client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7GNMEU4U8:00000003","TimeStamp":"2019-07-13T11:34:19.0000000Z","ProcessId":26092,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:34:19.188 +08:00 [DBG] Start token request validation
+2019-07-13 19:34:19.209 +08:00 [DBG] Start client credentials token request validation
+2019-07-13 19:34:19.392 +08:00 [DBG] client credentials token request validation success
+2019-07-13 19:34:19.463 +08:00 [INF] Token request validation success
+{"ClientId":"client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"api1","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:34:19.627 +08:00 [DBG] Getting claims for access token for client: client
+2019-07-13 19:34:19.990 +08:00 [INF] {"ClientId":"client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"api1","GrantType":"client_credentials","Tokens":[{"TokenType":"access_token","TokenValue":"****k7OA","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7GNMEU4U8:00000003","TimeStamp":"2019-07-13T11:34:19.0000000Z","ProcessId":26092,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 19:34:20.027 +08:00 [DBG] Token request success.
+2019-07-13 19:34:23.273 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:34:23.283 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:34:23.289 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:34:23.294 +08:00 [DBG] Start token request.
+2019-07-13 19:34:23.305 +08:00 [DBG] Start client validation
+2019-07-13 19:34:23.340 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:34:23.356 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:34:23.369 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:34:23.371 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:34:23.386 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:34:23.417 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:34:23.418 +08:00 [DBG] Client validation success
+2019-07-13 19:34:23.420 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7GNMEU4U9:00000001","TimeStamp":"2019-07-13T11:34:23.0000000Z","ProcessId":26092,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:34:23.453 +08:00 [DBG] Start token request validation
+2019-07-13 19:34:23.544 +08:00 [DBG] Start resource owner password token request validation
+2019-07-13 19:34:25.205 +08:00 [INF] Credentials validated for username: bob
+2019-07-13 19:34:25.220 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":"bob","Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7GNMEU4U9:00000001","TimeStamp":"2019-07-13T11:34:25.0000000Z","ProcessId":26092,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 19:34:25.277 +08:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","DisplayName":null,"Endpoint":"Token","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLO7GNMEU4U9:00000001","TimeStamp":"2019-07-13T11:34:25.0000000Z","ProcessId":26092,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-07-13 19:34:25.322 +08:00 [DBG] Resource owner password token request validation success.
+2019-07-13 19:34:25.326 +08:00 [INF] Token request validation success
+{"ClientId":"wpf client","ClientName":null,"GrantType":"password","Scopes":"api1 offline_access openid profile","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","username":"bob","password":"***REDACTED***","scope":"api1 openid profile offline_access","client_id":"wpf client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:34:25.347 +08:00 [DBG] Getting claims for access token for client: wpf client
+2019-07-13 19:34:25.367 +08:00 [DBG] Getting claims for access token for subject: 114db9fa-ee76-4b9a-90b0-8563e4652447
+2019-07-13 19:34:25.866 +08:00 [DBG] Creating refresh token
+2019-07-13 19:34:25.867 +08:00 [DBG] Setting an absolute lifetime: 2592000
+2019-07-13 19:34:25.987 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","Scopes":"openid profile api1 offline_access","GrantType":"password","Tokens":[{"TokenType":"refresh_token","TokenValue":"****f576","$type":"Token"},{"TokenType":"access_token","TokenValue":"****MsVw","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7GNMEU4U9:00000001","TimeStamp":"2019-07-13T11:34:25.0000000Z","ProcessId":26092,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 19:34:26.046 +08:00 [DBG] Token request success.
+2019-07-13 19:34:30.571 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-07-13 19:34:30.580 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-07-13 19:34:30.589 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-07-13 19:34:30.606 +08:00 [DBG] Start token request.
+2019-07-13 19:34:30.620 +08:00 [DBG] Start client validation
+2019-07-13 19:34:30.631 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-07-13 19:34:30.636 +08:00 [DBG] Start parsing for secret in post body
+2019-07-13 19:34:30.649 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-07-13 19:34:30.664 +08:00 [DBG] Secret id found: wpf client
+2019-07-13 19:34:30.665 +08:00 [DBG] client configuration validation for client wpf client succeeded.
+2019-07-13 19:34:30.668 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-07-13 19:34:30.669 +08:00 [DBG] Client validation success
+2019-07-13 19:34:30.670 +08:00 [INF] {"ClientId":"wpf client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLO7GNMEU4U9:00000002","TimeStamp":"2019-07-13T11:34:30.0000000Z","ProcessId":26092,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-07-13 19:34:30.698 +08:00 [DBG] Start token request validation
+2019-07-13 19:34:30.706 +08:00 [DBG] Start validation of refresh token request
+2019-07-13 19:34:30.897 +08:00 [DBG] Token validation success
+{"ClientId":"wpf client","ClientName":null,"ValidateLifetime":false,"AccessTokenType":null,"ExpectedScope":null,"TokenHandle":null,"JwtId":null,"Claims":{"sub":"114db9fa-ee76-4b9a-90b0-8563e4652447","client_id":"wpf client","scope":["openid","profile","api1","offline_access"],"auth_time":1563017665,"idp":"local","amr":"pwd","location":"somewhere"},"$type":"TokenValidationLog"}
+2019-07-13 19:34:30.934 +08:00 [DBG] Validation of refresh token request success
+2019-07-13 19:34:30.936 +08:00 [INF] Token request validation success
+{"ClientId":"wpf client","ClientName":null,"GrantType":"refresh_token","Scopes":null,"AuthorizationCode":null,"RefreshToken":"0d75db8025773cd0690c009fd7d1ef8baba24e069387fe895b117565584cf576","UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"refresh_token","refresh_token":"***REDACTED***","scope":"api1 openid profile","client_id":"wpf client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-07-13 19:34:31.020 +08:00 [DBG] Updating refresh token
+2019-07-13 19:34:31.021 +08:00 [DBG] Token usage is one-time only. Generating new handle
+2019-07-13 19:34:31.064 +08:00 [DBG] Created refresh token in store
+2019-07-13 19:34:31.100 +08:00 [DBG] Getting claims for identity token for subject: 114db9fa-ee76-4b9a-90b0-8563e4652447 and client: wpf client
+2019-07-13 19:34:31.104 +08:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2019-07-13 19:34:31.118 +08:00 [INF] {"ClientId":"wpf client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":"114db9fa-ee76-4b9a-90b0-8563e4652447","Scopes":"openid profile api1 offline_access","GrantType":"refresh_token","Tokens":[{"TokenType":"id_token","TokenValue":"****Gapw","$type":"Token"},{"TokenType":"refresh_token","TokenValue":"****c730","$type":"Token"},{"TokenType":"access_token","TokenValue":"****u7lQ","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLO7GNMEU4U9:00000002","TimeStamp":"2019-07-13T11:34:31.0000000Z","ProcessId":26092,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-07-13 19:34:31.169 +08:00 [DBG] Token request success.
